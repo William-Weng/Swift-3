@@ -43,3 +43,21 @@ do {
 
 let printerSuccess = try? send(job: 1884, toPrinter: "Mergenthaler") // 沒錯誤就傳回該傳的值
 let printerFailure = try? send(job: 1885, toPrinter: "Never Has Toner") // 發生error就會傳回nil
+
+
+
+var fridgeIsOpen = false
+let fridgeContent = ["milk", "eggs", "leftovers"]
+
+func fridgeContains(_ food: String) -> Bool {
+    fridgeIsOpen = true
+    defer {
+        fridgeIsOpen = false
+    }
+    
+    let result = fridgeContent.contains(food)
+    return result
+}
+
+fridgeContains("banana")
+print(fridgeIsOpen)
