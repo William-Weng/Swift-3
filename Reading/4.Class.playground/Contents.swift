@@ -59,7 +59,7 @@ class EquilateralTriangle: NamedShape {
 
 class TriangleAndSquare {
     var triangle: EquilateralTriangle {
-        willSet {
+        willSet { // 還有didSet
             square.sideLength = newValue.sideLength
         }
     }
