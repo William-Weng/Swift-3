@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="William-Weng.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mop-ul-R1A">
+                                <rect key="frame" x="-187" y="30" width="693" height="142"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="693" id="E5s-bQ-llZ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="693" id="WK1-Ku-qu3"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="142" id="oYC-wj-gbv"/>
+                                    <constraint firstAttribute="width" secondItem="Mop-ul-R1A" secondAttribute="height" multiplier="693:142" id="qqT-q8-tsq"/>
+                                    <constraint firstAttribute="height" constant="142" id="zyO-zO-d2d"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QRCdoe Scan With Swift 3.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ons-Ix-kUg">
+                                <rect key="frame" x="25.5" y="226.5" width="270" height="28"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Medium" family="PingFang TC" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Design By Yu-Pin Weng." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9BC-xH-jvw">
+                                <rect key="frame" x="42" y="354.5" width="236" height="28"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Medium" family="PingFang TC" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ⓒ Copyright 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tqj-2N-7kG">
+                                <rect key="frame" x="75.5" y="432" width="169" height="28"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Medium" family="PingFang TC" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Tqj-2N-7kG" secondAttribute="bottom" constant="20" id="3My-KA-xUb"/>
+                            <constraint firstItem="9BC-xH-jvw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="FeF-hW-6JJ"/>
+                            <constraint firstItem="ons-Ix-kUg" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="HEy-z1-xqd"/>
+                            <constraint firstItem="ons-Ix-kUg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="J9k-Fa-Yrw"/>
+                            <constraint firstItem="Mop-ul-R1A" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Lff-HN-AmO"/>
+                            <constraint firstItem="Tqj-2N-7kG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Tlq-Zi-QDC"/>
+                            <constraint firstItem="9BC-xH-jvw" firstAttribute="top" secondItem="ons-Ix-kUg" secondAttribute="bottom" constant="100" id="tV6-pQ-ZXa"/>
+                            <constraint firstItem="Mop-ul-R1A" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="10" id="wT1-4G-OCh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.625" y="373.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="William-Weng.png" width="693" height="683"/>
+    </resources>
+</document>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ha5-kx-Tip">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ScanQRCode-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ScanQRcode" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="JqV-TM-DON">
+                                <rect key="frame" x="16" y="389" width="288" height="42"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9t-TU-G8V">
+                                        <rect key="frame" x="0.0" y="0.0" width="82.5" height="42"/>
+                                        <fontDescription key="fontDescription" name="PingFangTC-Medium" family="PingFang TC" pointSize="21"/>
+                                        <state key="normal" title="Scan">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="scanQRCode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kf5-3b-eZL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ei-Nw-1PY">
+                                        <rect key="frame" x="102.5" y="0.0" width="83" height="42"/>
+                                        <fontDescription key="fontDescription" name="PingFangTC-Medium" family="PingFang TC" pointSize="20"/>
+                                        <state key="normal" title="Copy">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="copyText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Am0-To-ANl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUT-yc-Rif">
+                                        <rect key="frame" x="205.5" y="0.0" width="82.5" height="42"/>
+                                        <fontDescription key="fontDescription" name="PingFangTC-Medium" family="PingFang TC" pointSize="20"/>
+                                        <state key="normal" title="Save">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="saveQRCode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9rD-xK-SyH"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </stackView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0920670057" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yvw-X3-8pL">
+                                <rect key="frame" x="16" y="50" width="288" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Medium" family="PingFang TC" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vR6-Gr-PEJ">
+                                <rect key="frame" x="16" y="96" width="288" height="288"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Camera.png" translatesAutoresizingMaskIntoConstraints="NO" id="VDQ-37-SM6">
+                                        <rect key="frame" x="10" y="10" width="268" height="268"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstItem="VDQ-37-SM6" firstAttribute="top" secondItem="vR6-Gr-PEJ" secondAttribute="top" constant="10" id="8mt-7D-HJ0"/>
+                                    <constraint firstAttribute="width" secondItem="vR6-Gr-PEJ" secondAttribute="height" multiplier="1:1" id="NOm-DY-60S"/>
+                                    <constraint firstItem="VDQ-37-SM6" firstAttribute="leading" secondItem="vR6-Gr-PEJ" secondAttribute="leading" constant="10" id="Z8Y-xc-GTD"/>
+                                    <constraint firstAttribute="bottom" secondItem="VDQ-37-SM6" secondAttribute="bottom" constant="10" id="lJk-TG-P8V"/>
+                                    <constraint firstAttribute="trailing" secondItem="VDQ-37-SM6" secondAttribute="trailing" constant="10" id="re9-lU-QP6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="vR6-Gr-PEJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="0yM-Xt-Bi2"/>
+                            <constraint firstItem="yvw-X3-8pL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="1g6-vc-8mQ"/>
+                            <constraint firstItem="vR6-Gr-PEJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="COq-Te-zsT"/>
+                            <constraint firstItem="vR6-Gr-PEJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Jwc-Zm-rSa"/>
+                            <constraint firstItem="vR6-Gr-PEJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KKI-Ck-mrU"/>
+                            <constraint firstItem="yvw-X3-8pL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="LI1-wZ-vhE"/>
+                            <constraint firstItem="JqV-TM-DON" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Wub-Fv-rTF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JqV-TM-DON" secondAttribute="trailing" id="aXW-BM-E8z"/>
+                            <constraint firstItem="vR6-Gr-PEJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="iuF-Bz-Qs9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JqV-TM-DON" secondAttribute="bottom" id="kJo-gy-OnH"/>
+                            <constraint firstItem="yvw-X3-8pL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="knG-Qn-26o"/>
+                            <constraint firstItem="vR6-Gr-PEJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sYC-c2-HpH"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ScanQRCode" image="Tab_ScanQRCode.png" id="d6f-XC-i6B"/>
+                    <connections>
+                        <outlet property="copyScanData" destination="0Ei-Nw-1PY" id="5qJ-83-GTA"/>
+                        <outlet property="saveQRCodeImage" destination="HUT-yc-Rif" id="EWu-dX-lme"/>
+                        <outlet property="scanData" destination="yvw-X3-8pL" id="fUW-uf-W3G"/>
+                        <outlet property="scanImage" destination="VDQ-37-SM6" id="dey-7Q-YYd"/>
+                        <outlet property="scanQRCode" destination="G9t-TU-G8V" id="E0D-du-6BZ"/>
+                        <outlet property="scanView" destination="vR6-Gr-PEJ" id="hVJ-PS-AoA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="879.375" y="136.25"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="P2R-g5-SYG">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Ha5-kx-Tip" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="UFE-H3-8Pw">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="zpP-sz-i7J"/>
+                        <segue destination="kmE-H1-zJF" kind="relationship" relationship="viewControllers" id="hwg-jK-Dl3"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u8D-a7-45E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+        <!--ScanImage-->
+        <scene sceneID="pWb-g0-mQH">
+            <objects>
+                <viewController id="kmE-H1-zJF" customClass="AlbumViewController" customModule="ScanQRcode" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bN5-GS-Kb3"/>
+                        <viewControllerLayoutGuide type="bottom" id="AZ0-Cs-toR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G6d-TJ-aIj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="flQ-lM-W4Z">
+                                <rect key="frame" x="0.0" y="391" width="320" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0q-aQ-vXI">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="40"/>
+                                        <fontDescription key="fontDescription" name="PingFangTC-Medium" family="PingFang TC" pointSize="20"/>
+                                        <state key="normal" title="Album">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="openAlbum:" destination="kmE-H1-zJF" eventType="touchUpInside" id="lMV-RK-QDO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXJ-hL-TZU">
+                                        <rect key="frame" x="160" y="0.0" width="160" height="40"/>
+                                        <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="20"/>
+                                        <state key="normal" title="Copy">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="copyText:" destination="kmE-H1-zJF" eventType="touchUpInside" id="EgY-l5-eRx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Album.png" translatesAutoresizingMaskIntoConstraints="NO" id="DkA-W7-vNz">
+                                <rect key="frame" x="16" y="96" width="288" height="288"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DkA-W7-vNz" secondAttribute="height" multiplier="1:1" id="oEL-tp-0xM"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0920670057" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j4Z-nP-nRW">
+                                <rect key="frame" x="16" y="40" width="288" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="j4Z-nP-nRW" firstAttribute="leading" secondItem="G6d-TJ-aIj" secondAttribute="leadingMargin" id="0m5-CR-mgK"/>
+                            <constraint firstItem="DkA-W7-vNz" firstAttribute="trailing" secondItem="G6d-TJ-aIj" secondAttribute="trailingMargin" id="3A5-RH-dxk"/>
+                            <constraint firstItem="DkA-W7-vNz" firstAttribute="leading" secondItem="G6d-TJ-aIj" secondAttribute="leadingMargin" id="Dqq-Fi-VL1"/>
+                            <constraint firstItem="DkA-W7-vNz" firstAttribute="centerY" secondItem="G6d-TJ-aIj" secondAttribute="centerY" id="FCI-2Q-w9a"/>
+                            <constraint firstItem="j4Z-nP-nRW" firstAttribute="top" secondItem="bN5-GS-Kb3" secondAttribute="bottom" constant="20" id="J6T-Wh-lV2"/>
+                            <constraint firstItem="DkA-W7-vNz" firstAttribute="centerX" secondItem="G6d-TJ-aIj" secondAttribute="centerX" id="jJy-KW-PNj"/>
+                            <constraint firstAttribute="trailing" secondItem="flQ-lM-W4Z" secondAttribute="trailing" id="l7i-Yg-t7Z"/>
+                            <constraint firstItem="AZ0-Cs-toR" firstAttribute="top" secondItem="flQ-lM-W4Z" secondAttribute="bottom" id="pou-fu-IeJ"/>
+                            <constraint firstItem="j4Z-nP-nRW" firstAttribute="trailing" secondItem="G6d-TJ-aIj" secondAttribute="trailingMargin" id="qp6-Qu-Gkj"/>
+                            <constraint firstItem="flQ-lM-W4Z" firstAttribute="leading" secondItem="G6d-TJ-aIj" secondAttribute="leading" id="xTV-ed-IGn"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ScanImage" image="Tab_ScanImage.png" id="5ad-5f-TIe"/>
+                    <connections>
+                        <outlet property="scanData" destination="j4Z-nP-nRW" id="0wI-Kf-o7f"/>
+                        <outlet property="scanImage" destination="DkA-W7-vNz" id="cXH-uq-Qnz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wo6-b0-4Z3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Album.png" width="256" height="256"/>
+        <image name="Camera.png" width="512" height="512"/>
+        <image name="Tab_ScanImage.png" width="30" height="30"/>
+        <image name="Tab_ScanQRCode.png" width="30" height="30"/>
+    </resources>
+</document>
