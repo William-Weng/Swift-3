@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64110A5D1EC0964B00F195E1 /* William-Weng.png in Resources */ = {isa = PBXBuildFile; fileRef = 64110A5C1EC0964B00F195E1 /* William-Weng.png */; };
+		64C19B721EBB631F000F805F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64C19B711EBB631F000F805F /* GoogleService-Info.plist */; };
+		64F37A781EBB59460096951D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F37A771EBB59460096951D /* AppDelegate.swift */; };
+		64F37A7A1EBB59460096951D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F37A791EBB59460096951D /* ViewController.swift */; };
+		64F37A7D1EBB59460096951D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F37A7B1EBB59460096951D /* Main.storyboard */; };
+		64F37A7F1EBB59460096951D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F37A7E1EBB59460096951D /* Assets.xcassets */; };
+		64F37A821EBB59460096951D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F37A801EBB59460096951D /* LaunchScreen.storyboard */; };
+		FA15837354EBE30667ACA139 /* Pods_FirebaeNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EC07E9AD0156A50614F690 /* Pods_FirebaeNotification.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DA2FD60A8E9C575FB3714E3 /* Pods-FirebaeNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaeNotification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaeNotification/Pods-FirebaeNotification.debug.xcconfig"; sourceTree = "<group>"; };
+		64110A5C1EC0964B00F195E1 /* William-Weng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "William-Weng.png"; sourceTree = "<group>"; };
+		64C19B711EBB631F000F805F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		64F37A741EBB59460096951D /* FirebaeNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaeNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F37A771EBB59460096951D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64F37A791EBB59460096951D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64F37A7C1EBB59460096951D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64F37A7E1EBB59460096951D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F37A811EBB59460096951D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64F37A831EBB59460096951D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F37A891EBB59560096951D /* FirebaeNotification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaeNotification.entitlements; sourceTree = "<group>"; };
+		70EC07E9AD0156A50614F690 /* Pods_FirebaeNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaeNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD630D513CFD5F2339BED8F /* Pods-FirebaeNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaeNotification.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaeNotification/Pods-FirebaeNotification.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64F37A711EBB59460096951D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA15837354EBE30667ACA139 /* Pods_FirebaeNotification.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		366AEA55D12A651EC29CF738 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DA2FD60A8E9C575FB3714E3 /* Pods-FirebaeNotification.debug.xcconfig */,
+				7CD630D513CFD5F2339BED8F /* Pods-FirebaeNotification.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64110A5B1EC0963D00F195E1 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				64110A5C1EC0964B00F195E1 /* William-Weng.png */,
+			);
+			name = Image;
+			path = FirebaeNotification;
+			sourceTree = "<group>";
+		};
+		64F37A6B1EBB59460096951D = {
+			isa = PBXGroup;
+			children = (
+				64110A5B1EC0963D00F195E1 /* Image */,
+				64F37A761EBB59460096951D /* FirebaeNotification */,
+				64F37A751EBB59460096951D /* Products */,
+				366AEA55D12A651EC29CF738 /* Pods */,
+				FD528989F5FB7D281B1CD87A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64F37A751EBB59460096951D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64F37A741EBB59460096951D /* FirebaeNotification.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64F37A761EBB59460096951D /* FirebaeNotification */ = {
+			isa = PBXGroup;
+			children = (
+				64F37A891EBB59560096951D /* FirebaeNotification.entitlements */,
+				64C19B711EBB631F000F805F /* GoogleService-Info.plist */,
+				64F37A771EBB59460096951D /* AppDelegate.swift */,
+				64F37A791EBB59460096951D /* ViewController.swift */,
+				64F37A7B1EBB59460096951D /* Main.storyboard */,
+				64F37A7E1EBB59460096951D /* Assets.xcassets */,
+				64F37A801EBB59460096951D /* LaunchScreen.storyboard */,
+				64F37A831EBB59460096951D /* Info.plist */,
+			);
+			path = FirebaeNotification;
+			sourceTree = "<group>";
+		};
+		FD528989F5FB7D281B1CD87A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70EC07E9AD0156A50614F690 /* Pods_FirebaeNotification.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64F37A731EBB59460096951D /* FirebaeNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F37A861EBB59460096951D /* Build configuration list for PBXNativeTarget "FirebaeNotification" */;
+			buildPhases = (
+				C10851D82F800929893EA4EF /* [CP] Check Pods Manifest.lock */,
+				64F37A701EBB59460096951D /* Sources */,
+				64F37A711EBB59460096951D /* Frameworks */,
+				64F37A721EBB59460096951D /* Resources */,
+				487A9DC1947AF2FFAF8BF8D7 /* [CP] Embed Pods Frameworks */,
+				EDA1BAB37DE9AA71ABC64BC2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaeNotification;
+			productName = FirebaeNotification;
+			productReference = 64F37A741EBB59460096951D /* FirebaeNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64F37A6C1EBB59460096951D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "William-Weng";
+				TargetAttributes = {
+					64F37A731EBB59460096951D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GXE4438K84;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 64F37A6F1EBB59460096951D /* Build configuration list for PBXProject "FirebaeNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64F37A6B1EBB59460096951D;
+			productRefGroup = 64F37A751EBB59460096951D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64F37A731EBB59460096951D /* FirebaeNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64F37A721EBB59460096951D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F37A821EBB59460096951D /* LaunchScreen.storyboard in Resources */,
+				64C19B721EBB631F000F805F /* GoogleService-Info.plist in Resources */,
+				64F37A7F1EBB59460096951D /* Assets.xcassets in Resources */,
+				64110A5D1EC0964B00F195E1 /* William-Weng.png in Resources */,
+				64F37A7D1EBB59460096951D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		487A9DC1947AF2FFAF8BF8D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaeNotification/Pods-FirebaeNotification-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C10851D82F800929893EA4EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA1BAB37DE9AA71ABC64BC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaeNotification/Pods-FirebaeNotification-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64F37A701EBB59460096951D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F37A7A1EBB59460096951D /* ViewController.swift in Sources */,
+				64F37A781EBB59460096951D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64F37A7B1EBB59460096951D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F37A7C1EBB59460096951D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64F37A801EBB59460096951D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F37A811EBB59460096951D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64F37A841EBB59460096951D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F37A851EBB59460096951D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64F37A871EBB59460096951D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA2FD60A8E9C575FB3714E3 /* Pods-FirebaeNotification.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirebaeNotification/FirebaeNotification.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GXE4438K84;
+				INFOPLIST_FILE = FirebaeNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.williamweng.FirebaeNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		64F37A881EBB59460096951D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD630D513CFD5F2339BED8F /* Pods-FirebaeNotification.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirebaeNotification/FirebaeNotification.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GXE4438K84;
+				INFOPLIST_FILE = FirebaeNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.williamweng.FirebaeNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64F37A6F1EBB59460096951D /* Build configuration list for PBXProject "FirebaeNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F37A841EBB59460096951D /* Debug */,
+				64F37A851EBB59460096951D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F37A861EBB59460096951D /* Build configuration list for PBXNativeTarget "FirebaeNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F37A871EBB59460096951D /* Debug */,
+				64F37A881EBB59460096951D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64F37A6C1EBB59460096951D /* Project object */;
+}
